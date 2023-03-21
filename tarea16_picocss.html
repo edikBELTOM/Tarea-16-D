@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="pico-master/css/pico.min.css">
+    <title>Tarea 16</title>
+</head>
+
+<body class="container">
+    <!-- menu  -->
+
+    <nav>
+        <ul>
+            <li><strong>Tarea 16</strong></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#" role="button">Menu 3</a></li>
+        </ul>
+    </nav>
+
+
+    <p>
+        Lorem ipsum dolor <mark>sit amet</mark> consectetur adipisicing elit. <del>Voluptatibus,</del> autem
+        necessitatibus? Similique dolorum
+        officia tenetur, delectus perspiciatis eaque deserunt, aut quos <ins>cumque</ins> cupiditate odio aliquam omnis
+        eveniet sit
+        <abbr>laborum adipisci!</abbr>
+    </p>
+
+    <!-- blockquote  -->
+
+
+    <blockquote>
+        "Maecenas vehicula metus tellus, vitae congue turpis hendrerit non.
+        Nam at dui sit amet ipsum cursus ornare."
+        <footer>
+            <cite>- Phasellus eget lacinia</cite>
+        </footer>
+    </blockquote>
+
+    <!-- 3 acordones  -->
+
+    <details>
+        <summary role="button">Accordion 1</summary>
+        <p>A</p>
+    </details>
+
+    <details>
+        <summary role="button" class="secondary">Accordion 2</summary>
+        <p>B</p>
+    </details>
+
+    <details>
+        <summary role="button" class="secondary">Accordion 3</summary>
+        <p>C</p>
+    </details>
+
+    <!-- sección  -->
+
+    <section class="grid">
+        <div>
+            <figure>
+                <img src="https://picsum.photos/800/500"><br>
+                <figcaption>Lorem ipsum dolor sit</figcaption>
+            </figure><br>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat suscipit quam rem? Maiores ab minus
+                quod porro possimus cumque quia tenetur similique ducimus soluta, exercitationem placeat itaque ratione,
+                quos eligendi!</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat suscipit quam rem? Maiores ab minus
+                quod porro possimus cumque quia tenetur similique ducimus soluta, exercitationem placeat itaque ratione,
+                quos eligendi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat suscipit quam rem? Maiores ab minus
+                quod porro possimus cumque quia tenetur similique ducimus soluta, exercitationem placeat itaque ratione,
+                quos eligendi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat suscipit quam rem? Maiores ab minus
+                quod porro possimus cumque quia tenetur similique ducimus soluta, exercitationem placeat itaque ratione,
+                quos eligendi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat suscipit quam rem? Maiores ab minus
+                quod porro possimus cumque quia tenetur similique ducimus soluta, exercitationem placeat itaque ratione,
+                quos eligendi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat suscipit quam rem? Maiores ab minus
+                quod porro possimus cumque quia tenetur similique ducimus soluta, exercitationem placeat itaque ratione,
+                quos eligendi!
+            </p>
+        </div>
+    </section>
+
+    <!-- galería  -->
+
+    <section class="container">
+        <div class="grid">
+            <figure>
+                <img src="https://picsum.photos/200/150">
+                <figcaption>Lorem ipsum dolor sit</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/200/150">
+                <figcaption>Lorem ipsum dolor sit</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/200/150">
+                <figcaption>Lorem ipsum dolor sit</figcaption>
+            </figure>
+        </div>
+        <div class="grid">
+            <figure>
+                <img src="https://picsum.photos/200/150">
+                <figcaption>Lorem ipsum dolor sit</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/200/150">
+                <figcaption>Lorem ipsum dolor sit</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/200/150">
+                <figcaption>Lorem ipsum dolor sit</figcaption>
+            </figure>
+        </div>
+
+    </section>
+
+    <!-- formulario  -->
+
+    <form>
+
+        <div class="grid">
+
+            <label for="nombre">
+                Nombre:
+                <input type="text" id="nombre" required>
+            </label>
+
+            <label for="apellidos">
+                Apellidos:
+                <input type="text" id="apellidos" required>
+            </label>
+
+        </div>
+
+
+        <div class="grid">
+            <label for="telefono">
+                Telefono:
+                <input type="text" id="telefono" required>
+            </label>
+
+            <label for="usuario">
+                Usuario:
+                <input type="text" id="usuario" required>
+            </label>
+
+            <label for="email">
+                Email:
+                <input type="text" id="email" required>
+            </label>
+        </div>
+
+        <div class="grid">
+            <input type="search" id="search" name="search" placeholder="Search">
+
+            <details role="list">
+                <summary aria-haspopup="listbox">Elige los permisos...</summary>
+                <ul role="listbox">
+                    <li><a>1</a></li>
+                    <li><a>2</a></li>
+                    <li><a>3</a></li>
+                </ul>
+            </details>
+        </div>
+
+        <div class="grid">
+            <fieldset>
+                <legend>Size</legend>
+                <label for="small">
+                    <input type="radio" id="small" name="size" value="small" checked>
+                    Small
+                </label>
+                <label for="medium">
+                    <input type="radio" id="medium" name="size" value="medium">
+                    Medium
+                </label>
+                <label for="large">
+                    <input type="radio" id="large" name="size" value="large">
+                    Large
+                </label>
+                <label for="extralarge">
+                    <input type="radio" id="extralarge" name="size" value="extralarge" disabled>
+                    Extra Large
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms">
+                    I agree to the Terms and Conditions
+                </label>
+                <label for="terms_sharing">
+                    <input type="checkbox" id="terms_sharing" name="terms_sharing" disabled checked>
+                    I agree to share my information with partners
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label for="switch">
+                    <input type="checkbox" id="switch" name="switch" role="switch">
+                    Publish on my profile
+                </label>
+                <label for="switch">
+                    <input type="checkbox" id="switch" name="switch" role="switch" checked>
+                    User must change password at next logon
+                </label>
+
+        </div>
+
+        <div class="grid">
+            <a href="#" role="button" class="secondary">Limpiar</a>
+            <a href="#" role="button" class="primary">Enviar</a>
+        </div>
+
+    </form>
+</body>
+
+</html>
